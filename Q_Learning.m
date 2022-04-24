@@ -1,4 +1,4 @@
-clear;
+clearvars -except step_number_sarsa;
 clc;
 close all;
 global Maze_row Maze_col EPSILON goal_num;
